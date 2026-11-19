@@ -5,7 +5,7 @@
    <parent>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-parent</artifactId>
-      <version>3.5.6</version>
+      <version>4.0.8</version>
       <relativePath/>
    </parent>
 
@@ -16,10 +16,11 @@
    <properties>
       <java.version>21</java.version>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-      <springdoc.version>2.8.13</springdoc.version>
+      <springdoc.version>3.0.0</springdoc.version>
       <datafaker.version>2.5.1</datafaker.version>
+      <tomcat.version>11.0.25</tomcat.version>
+      <jackson-bom.version>3.1.7</jackson-bom.version>
       <easyrandom.version>7.1.1</easyrandom.version>
-      <tomcat.version>10.1.61</tomcat.version>
    </properties>
 
    <dependencies>
